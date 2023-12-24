@@ -6,10 +6,10 @@ class Config(object):
     # star bots client config
     API_ID    = os.environ.get("API_ID", "11973721")
     API_HASH  = os.environ.get("API_HASH", "5264bf4663e9159565603522f58d3c18")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6320796768:AAGu6C6R991duq6K1LGBiD3Sn1WHPaK_oUU") 
    
     # database config
-    DATABASE_NAME = os.environ.get("DATABASE_NAME","") # Bot Username  
+    DATABASE_NAME = os.environ.get("DATABASE_NAME","Graph-Star-Bot") # Bot Username  
     DATABASE_URL  = os.environ.get("DATABASE_URL","mongodb+srv://KarthikMovies:KarthikUK007@cluster0.4l5byki.mongodb.net/?retryWrites=true&w=majority")
  
     # other configs
@@ -24,7 +24,7 @@ class Config(object):
 
 class Text(object):
     # part of text configuration
-    START_TEXT = """<b>Hello 👋🏻 {} ❤️,\nI'm An Star Bots Tamil's Official () Bot. This is An Advanced () Bot.\n➠ For More Details Check /help\n\nMaintenance By :- [Star Bots Tamil](https://t.me/Star_Bots_Tamil)</b>"""
+    START_TEXT = """<b>Hello 👋🏻 {} ❤️,\nI'm An Star Bots Tamil's Official Graph Bot. This is An Advanced Graph Bot.\n➠ For More Details Check /help\n\nMaintenance By :- [Star Bots Tamil](https://t.me/Star_Bots_Tamil)</b>"""
 
     ABOUT_TEXT = """<b>🤖 My Name :- {}\n
 🧑🏻‍💻 Developer :- <a href=https://t.me/TG_Karthik><b>Karthik</b></a>\n
@@ -47,6 +47,8 @@ class Text(object):
 ➠ /unban :- Unban a User 😁
 ➠ /banned :- Total Banned Users 🤕
 ➠ /broadcast :- to Broadcast 💌 a Message to All Users
+
+Get Photo or Under 5MB Video's Links From Graph.org. and it's Save Also Text.
 
 ⚠️ Contact For Any Problem :- [👥 Support Group](https://t.me/Star_Bots_Tamil_Support)</b>"""
 
