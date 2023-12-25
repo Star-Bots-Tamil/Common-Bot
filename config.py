@@ -14,7 +14,7 @@ class Config(object):
  
     # other configs
     BOT_UPTIME  = time.time()
-    PIC         = os.environ.get("PIC", "https://graph.org/file/1412d9f93d77c350d8268.jpg")
+    PIC         = os.environ.get("PIC", "") # https://graph.org/file/1412d9f93d77c350d8268.jpg
     ADMINS      = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1391556668 5162208212 5239847373').split()]
     FORCE_SUB   = os.environ.get("FORCE_SUB", "Star_Bots_Tamil") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001821439025"))
