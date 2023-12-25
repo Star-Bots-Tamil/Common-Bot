@@ -32,7 +32,7 @@ class temp(object):
 
 class Text(object):
     # part of text configuration
-    START_TEXT = """<b>Hello 👋🏻 {} ❤️,\nI'm An Star Bots Tamil's Official () Bot. This is An Advanced () Bot.\n➠ For More Details Check /help\n\nMaintenance By :- [Star Bots Tamil](https://t.me/Star_Bots_Tamil)</b>"""
+    START_TEXT = """<b>Hello 👋🏻 {} ❤️,\nI'm An Star Bots Tamil's Official Open Ai Bot. This is An Advanced Open Ai Bot.\n➠ For More Details Check /help\n\nMaintenance By :- [Star Bots Tamil](https://t.me/Star_Bots_Tamil)</b>"""
 
     ABOUT_TEXT = """<b>🤖 My Name :- {}\n
 🧑🏻‍💻 Developer :- <a href=https://t.me/TG_Karthik><b>Karthik</b></a>\n
@@ -55,6 +55,8 @@ class Text(object):
 ➠ /unban :- Unban a User 😁
 ➠ /banned :- Total Banned Users 🤕
 ➠ /broadcast :- to Broadcast 💌 a Message to All Users
+
+Send Any Text to Our Bot PM. Get Any Question's Answer with Bot PM. Admin will Check You're All Messages. So you try to Misuse Our Bot to Get Permanent Ban.
 
 ⚠️ Contact For Any Problem :- [👥 Support Group](https://t.me/Star_Bots_Tamil_Support)</b>"""
 
