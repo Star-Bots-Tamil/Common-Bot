@@ -20,9 +20,9 @@ class Config(object):
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001821439025"))
 
     # AI
-    OPENAI_API = environ.get("OPENAI_API","")
-    AI = is_enabled((environ.get("AI","True")), False)
-    AI_LOGS = int(environ.get("AI_LOGS", LOG_CHANNEL)) #GIVE YOUR NEW LOG CHANNEL ID TO STORE MESSAGES THAT THEY SEARCH IN BOT PM.... [ i have added this to keep an eye on the users message, to avoid misuse of AI Star Bots]
+    OPENAI_API = os.environ.get("OPENAI_API","")
+    AI = bool((os.environ.get("AI","True")), False)
+    AI_LOGS = int(os.environ.get("AI_LOGS", LOG_CHANNEL)) #GIVE YOUR NEW LOG CHANNEL ID TO STORE MESSAGES THAT THEY SEARCH IN BOT PM.... [ i have added this to keep an eye on the users message, to avoid misuse of AI Star Bots]
  
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
