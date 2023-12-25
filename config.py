@@ -6,10 +6,10 @@ class Config(object):
     # star bots client config
     API_ID    = os.environ.get("API_ID", "11973721")
     API_HASH  = os.environ.get("API_HASH", "5264bf4663e9159565603522f58d3c18")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6868846679:AAGg3FYQuGYW4seSUa8CnI-h1u_mdafOKAE") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6172666504:AAHxMz6jGgnA3t6E-4bAQazswF2fQMAGSHk") 
    
     # database config
-    DATABASE_NAME = os.environ.get("DATABASE_NAME","Open-Ai-Star-Bot") # Bot Username  
+    DATABASE_NAME = os.environ.get("DATABASE_NAME","ChatGPT-AI-Star-Bot") # Bot Username  
     DATABASE_URL  = os.environ.get("DATABASE_URL","mongodb+srv://KarthikMovies:KarthikUK007@cluster0.4l5byki.mongodb.net/?retryWrites=true&w=majority")
  
     # other configs
