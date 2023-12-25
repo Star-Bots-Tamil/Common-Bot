@@ -10,7 +10,7 @@ class Bot(Client):
 
     def __init__(self):
         super().__init__(
-            name="renamer",
+            name="Common-Bot",
             api_id=Config.API_ID,
             api_hash=Config.API_HASH,
             bot_token=Config.BOT_TOKEN,
@@ -46,5 +46,4 @@ class Bot(Client):
         await super().stop()      
         print("Bot Stopped... Bye")
        
-
 Bot().run()
