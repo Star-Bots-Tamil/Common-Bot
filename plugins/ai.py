@@ -1,7 +1,6 @@
-from utils import temp
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram import Client, filters
-from config import Config
+from config import Config, temp
 import openai
 openai.api_key = Config.OPENAI_API
 
