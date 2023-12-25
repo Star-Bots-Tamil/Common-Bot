@@ -52,7 +52,7 @@ Get Photo or Under 5MB Video's Links From Graph.org. and it's Save Also Text.
 
 ⚠️ Contact For Any Problem :- [👥 Support Group](https://t.me/Star_Bots_Tamil_Support)</b>"""
 
-    DEV_TXT = """<b><u>Special Thanks & Developer</b></u>
+    DEV_TEXT = """<b><u>Special Thanks & Developer</b></u>
 **You Can pay Any Our Bot's Repo. If you're able to Donate or Buy Our Bot's Repo, please Consider using these Methods:
 
 UPI ID :- `starbotstamil@upi`
