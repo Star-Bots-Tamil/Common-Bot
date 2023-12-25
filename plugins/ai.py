@@ -28,10 +28,10 @@ async def ai_answer(client, message):
             await client.send_message(
                 Config.AI_LOGS,
                 text=f"⚡️⚡️#Lazy_AI_Query \n\n• A user named **{message.from_user.mention}** with user id - `{user_id}`. Asked me this query...\n\n══❚█══Q   U   E   R   Y══█❚══\n\n\n[Q྿.]**{lazy_users_message}**\n\n👇Here is what I responded:\n:-`{lazy_response}`\n\n\n❚═USER ID═❚═• `{user_id}` \n❚═USER Name═❚═• `{message.from_user.mention}` \n\n🗃️",
-                parse_mode=enums.ParseMode.HTML, 
+                parse_mode=enums.ParseMode.MARKDOWN, 
                 reply_markup=reply_markup
             )
-            await message.reply(f"{lazy_response}\n\n\n{footer_credit}", parse_mode=enums.ParseMode.HTML)
+            await message.reply(f"{lazy_response}\n\n\n{footer_credit}", parse_mode=enums.ParseMode.MARKDOWN)
 
         except Exception as error:
             print(error)
