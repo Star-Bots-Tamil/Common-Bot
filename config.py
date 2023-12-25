@@ -14,13 +14,21 @@ class Config(object):
  
     # other configs
     BOT_UPTIME  = time.time()
-    PIC         = os.environ.get("PIC", "https://graph.org/file/1412d9f93d77c350d8268.jpg")
+    PIC         = os.environ.get("PIC", "") # https://graph.org/file/1412d9f93d77c350d8268.jpg
     ADMINS      = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1391556668 5162208212 5239847373').split()]
     FORCE_SUB   = os.environ.get("FORCE_SUB", "Star_Bots_Tamil") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001821439025"))
 
+    # AI
+    OPENAI_API = environ.get("OPENAI_API","")
+    AI = is_enabled((environ.get("AI","True")), False)
+    AI_LOGS = int(environ.get("AI_LOGS", LOG_CHANNEL)) #GIVE YOUR NEW LOG CHANNEL ID TO STORE MESSAGES THAT THEY SEARCH IN BOT PM.... [ i have added this to keep an eye on the users message, to avoid misuse of AI Star Bots]
+ 
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
+
+class temp(object):
+    U_NAME = None
 
 class Text(object):
     # part of text configuration
