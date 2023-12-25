@@ -21,7 +21,7 @@ class Config(object):
 
     # AI
     OPENAI_API = os.environ.get("OPENAI_API","")
-    AI = bool((os.environ.get("AI","True")), False)
+    AI = bool(os.environ.get("AI", True))
     AI_LOGS = int(os.environ.get("AI_LOGS", LOG_CHANNEL)) #GIVE YOUR NEW LOG CHANNEL ID TO STORE MESSAGES THAT THEY SEARCH IN BOT PM.... [ i have added this to keep an eye on the users message, to avoid misuse of AI Star Bots]
  
     # wes response configuration     
